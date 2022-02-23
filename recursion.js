@@ -6,3 +6,13 @@
 // 3
 // 2
 // 1
+
+function counts(x) {
+    if (x <= 0) {
+        return
+    }
+    console.log(x)
+    counts(x - 1)
+}
+
+counts(7)
