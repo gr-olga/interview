@@ -13,5 +13,7 @@ function multiply(number){
     const c =  Math.pow(5, q)
     return number * c
 }
+//const multiply = num => num * 5 ** (Math.abs(num).toString()).length
 
 console.log(multiply(-3))
+const quadrant = (x, y) => [3, 4, 2, 1][Math.sign(10) / 2 + Math.sign(-8) + 1.5]
