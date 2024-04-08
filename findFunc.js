@@ -6,5 +6,13 @@
 
 
 const find = (el, arr) => {
-
+    let counter = arr.length
+    for (let i = 0; i <= arr.length; i++) {
+        console.log('counter',counter)
+        if (arr[i] === el)
+            return console.log(arr[i], i)
+        else counter -= 1
+    }
+    console.log(counter)
 }
+find('s', ['a', 'b', 'c', 'd','g','e', 'o'])
