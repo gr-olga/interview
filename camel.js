@@ -8,7 +8,7 @@ function jadenCase(str) {
     const up = newList.map((item) => {
         return item.charAt(0).toUpperCase() + item.slice(1);
     })
-    return up.join(" ")
+    return up.join("")
 }
 
-jadenCase("How can mirrors be real if our eyes aren't real")
+ console.log(jadenCase("How can mirrors be real if our eyes aren't real"))
