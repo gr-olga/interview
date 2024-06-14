@@ -63,4 +63,5 @@ setup();
 
 var button = $("#btn");
 button.click();
-console.l
+console.log(button.css("display") === "none"); // should return true
+
